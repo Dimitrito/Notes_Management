@@ -1,0 +1,31 @@
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  label {
+    color: #333;
+    font-weight: 500;
+  }
+}
+
+.language-select {
+  padding: 8px 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #667eea;
+  }
+
+  &:hover {
+    border-color: #667eea;
+  }
+}
+
+
